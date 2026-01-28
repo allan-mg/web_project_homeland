@@ -1,0 +1,37 @@
+.lead {
+  text-align: center;
+  padding-top: 91px;
+}
+
+.lead__content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.lead__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+.lead__subtitle {
+  margin: 32px 0 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  opacity: 0.9;
+}
+
+.lead__image {
+  margin-top: 64px;
+}
+
+.lead__photo {
+  display: block;
+  width: 100%;
+  max-width: 984px;
+  height: auto;
+  margin: 0 auto;
+  filter: grayscale(100%);
+}
