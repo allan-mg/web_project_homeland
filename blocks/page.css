@@ -7,10 +7,3 @@
   font-family: "Inter", Arial, sans-serif;
   box-sizing: border-box;
 }
-
-.content {
-  max-width: 984px; /* el ancho del bloque "lead" en Figma */
-  margin: 0 auto;
-  padding: 0; /* lo ajustamos con media queries */
-}
-
