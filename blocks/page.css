@@ -8,8 +8,9 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  background: #2a2c2f;
+.content {
+  max-width: 984px; /* el ancho del bloque "lead" en Figma */
+  margin: 0 auto;
+  padding: 0; /* lo ajustamos con media queries */
 }
 

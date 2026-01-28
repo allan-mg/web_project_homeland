@@ -1,6 +1,6 @@
 .intro {
-  margin: 92px auto 0;
-  max-width: 830px;
+  margin-top: 92px;
+  max-width: 830px; /* el ancho del bloque intro en Figma */
 }
 
 .intro__title {
@@ -10,57 +10,20 @@
   line-height: 58px;
 }
 
+.intro__text_type_quote {
+  margin-top: 40px;
+}
+
+.intro__text_type_author {
+  margin-top: 10px;
+  text-align: right;
+  opacity: 0.9;
+}
+
 .intro__text {
   margin: 40px 0 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
   opacity: 0.9;
-}
-
-.intro__text--quote {
-  margin-top: 40px;
-}
-
-.intro__text--author {
-  margin-top: 10px;
-  text-align: right;
-  opacity: 0.9;
-}
-
-/* 768px */
-@media screen and (max-width: 768px) {
-  .intro {
-    max-width: 720px;
-    padding: 0 24px;
-    margin-top: 64px;
-  }
-
-  .intro__title {
-    font-size: 45px;
-    line-height: 49px;
-  }
-
-  .intro__text {
-    margin-top: 24px;
-    line-height: 26px;
-  }
-}
-
-/* 320px */
-@media screen and (max-width: 320px) {
-  .intro {
-    max-width: 288px;
-    padding: 0 16px;
-    margin-top: 64px;
-  }
-
-  .intro__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .intro__text {
-    margin-top: 24px;
-  }
 }

@@ -1,5 +1,5 @@
 .lead {
-  padding-top: 91px;
+  padding-top: 91px; /* para acercarnos al top=194 en Figma (header + espacio) */
   text-align: center;
 }
 
@@ -20,73 +20,11 @@
   opacity: 0.9;
 }
 
-.lead__image {
-  margin-top: 64px;
-}
-
 .lead__photo {
+  margin: 64px auto 0;
+  display: block;
   width: 100%;
   max-width: 984px;
   height: auto;
-  display: block;
-  margin: 0 auto;
   filter: grayscale(100%);
-}
-
-/* 768px */
-@media screen and (max-width: 768px) {
-  .lead {
-    padding-top: 80px;
-  }
-
-  .lead__title {
-    font-size: 72px;
-    line-height: 76px;
-    padding: 0 24px;
-  }
-
-  .lead__subtitle {
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 24px;
-    padding: 0 24px;
-  }
-
-  .lead__image {
-    margin-top: 40px;
-  }
-
-  .lead__photo {
-    max-width: none;
-  }
-}
-
-/* 320px */
-@media screen and (max-width: 320px) {
-  .lead {
-    padding-top: 50px;
-  }
-
-  .lead__title {
-    font-size: 40px;
-    line-height: 44px;
-    padding: 0 16px;
-  }
-
-  .lead__subtitle {
-    font-size: 16px;
-    line-height: 20px;
-    margin-top: 16px;
-    padding: 0 16px;
-  }
-
-  .lead__image {
-    margin-top: 32px;
-  }
-
-  .lead__photo {
-    max-width: none;
-    height: 200px;
-    object-fit: cover;
-  }
 }
