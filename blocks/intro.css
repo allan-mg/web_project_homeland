@@ -1,23 +1,16 @@
 .intro {
-  margin-top: 92px;
-  max-width: 830px; /* el ancho del bloque intro en Figma */
+  font-family: "Inter", Arial, sans-serif;
+  padding: 46px 0 46px;
+  margin: 0 auto;
+  max-width: 984px;
 }
 
 .intro__title {
+  grid-area: title;
   margin: 0;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-}
-
-.intro__text_type_quote {
-  margin-top: 40px;
-}
-
-.intro__text_type_author {
-  margin-top: 10px;
-  text-align: right;
-  opacity: 0.9;
 }
 
 .intro__text {
@@ -28,44 +21,103 @@
   opacity: 0.9;
 }
 
+.intro__text_type_quote {
+  grid-area: quote;
+  width: 738;
+  height: 136;
+  top: 1483px;
+  left: 148px;
+  angle: 0 deg;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 34px;
+  letter-spacing: 0%;
+}
+
+.intro__text_type_author {
+  grid-area: author;
+  margin: 40px 0 0;
+  align-self: end;
+  text-align: right;
+  white-space: nowrap;
+  opacity: 0.9;
+}
+
+.intro__text_type_main {
+  grid-area: text;
+  margin: 40px 0 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  opacity: 0.9;
+}
+
 @media screen and (max-width: 768px) {
   .intro {
-      margin-top: 64px;
-    }
+    margin-top: 64px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+    font-weight: 900;
+    margin: 0;
+    width: 707;
+    height: 147;
+    top: 1041px;
+    left: 24px;
+  }
+
+  .intro__text_type_quote {
+    width: 720;
+    height: 136;
+    top: 1238px;
+    left: 24px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 34px;
+    letter-spacing: 0%;
+  }
+
+  .intro__text_type_author {
+    width: 720;
+    height: 34;
+    top: 1366px;
+    left: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: right;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-      margin-top: 64px;
-    }
+    margin-top: 64px;
+  }
   .intro__title {
-      font-size: 32px;
-      line-height: 35px;
-      margin: 0;
-    }
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0;
+  }
   .intro__text {
-      font-size: 16px;
-      line-height: 26px;
-      margin-top: 24px;
-      opacity: 0.9;
-    }
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    opacity: 0.9;
+  }
   .intro__text--author {
-      text-align: right;
-      margin-top: 10px;
-    }
-  .intro__title {
-      font-size: 32px;
-      line-height: 35px;
-      margin: 0;
-    }
-  .intro__text {
-      font-size: 16px;
-      line-height: 26px;
-      margin-top: 24px;
-      opacity: 0.9;
-    }
-  .intro__text--author {
-      text-align: right;
-      margin-top: 10px;
-    }
+    text-align: right;
+    margin-top: 10px;
+  }
 }
