@@ -1,0 +1,15 @@
+.place__content {
+  grid-area: content;
+}
+
+@media screen and (max-width: 768px) {
+  .place__content {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__content {
+    max-width: 100%;
+  }
+}

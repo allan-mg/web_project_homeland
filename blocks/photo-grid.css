@@ -11,13 +11,6 @@
   position: relative;
 }
 
-.photo-grid__item {
-  width: 100%;
-  aspect-ratio: 284 / 213;
-  object-fit: cover;
-  display: block;
-}
-
 /* Tablet */
 @media (max-width: 768px) {
   .photo-grid {
