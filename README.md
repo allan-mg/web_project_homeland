@@ -35,5 +35,5 @@ También reforcé mis habilidades en estructura semántica, organización de est
 
 ## Enlaces
 
-* Demo en vivo: PENDIENTE
+* Demo en vivo: https://allan-mg.github.io/web_project_homeland/
 * Repositorio: https://github.com/allan-mg/web_project_homeland
