@@ -12,8 +12,7 @@
     max-width: none;
   }
 }
-@media screen and (max-width: 480px) {
-}
+
 @media screen and (max-width: 320px) {
   .place__website {
     max-width: 100%;
