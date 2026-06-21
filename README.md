@@ -10,22 +10,22 @@ Durante el desarrollo trabajé con organización visual, diseño responsivo y ad
 
 ## Funcionalidades principales
 
-* Página web con diseño responsivo.
-* Estructura semántica con HTML.
-* Estilos personalizados con CSS.
-* Adaptación a diferentes resoluciones.
-* Organización de contenido por secciones.
-* Práctica de maquetación profesional.
+- Página web con diseño responsivo.
+- Estructura semántica con HTML.
+- Estilos personalizados con CSS.
+- Adaptación a diferentes resoluciones.
+- Organización de contenido por secciones.
+- Práctica de maquetación profesional.
 
 ## Tecnologías utilizadas
 
-* HTML5
-* CSS3
-* Diseño responsivo
-* Media queries
-* Git
-* GitHub
-* Metodología BEM
+- HTML5
+- CSS3
+- Diseño responsivo
+- Media queries
+- Git
+- GitHub
+- Metodología BEM
 
 ## Aprendizaje
 
@@ -33,7 +33,11 @@ Este proyecto me ayudó a fortalecer mi comprensión del diseño responsivo y la
 
 También reforcé mis habilidades en estructura semántica, organización de estilos y presentación visual de contenido.
 
+## Demo de funcionamiento
+
+![Demo del proyecto](./images/demo.gif)
+
 ## Enlaces
 
-* Demo en vivo: https://allan-mg.github.io/web_project_homeland/
-* Repositorio: https://github.com/allan-mg/web_project_homeland
+- Demo en vivo: https://allan-mg.github.io/web_project_homeland/
+- Repositorio: https://github.com/allan-mg/web_project_homeland
